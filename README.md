@@ -76,7 +76,7 @@ npm run dev
 Para acessar dinamicamente no projeto React, defina a URL base no arquivo `.env` que você irá criar:
 
 ```env
-NEXT_PUBLIC_API_CARDS_POST=https://seudominio.com/wp-json/api/cards
+NEXT_PUBLIC_API_CARDS_POST=https://seudominio.com/wp-json
 ```
 
 > Substitua `https://seudominio.com` pela URL onde seu WordPress está hospedado.
