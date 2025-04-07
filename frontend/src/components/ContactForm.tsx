@@ -34,7 +34,7 @@ export default function ContactForm() {
 
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/wp-json/api/leads`,
+        `${process.env.NEXT_PUBLIC_API_URL}/api/leads`,
         {
           method: "POST",
           headers: {
